@@ -3,7 +3,7 @@ import React from 'react'
 function About() {
   return (
     <section>
-      <h1>Tobby Brooks</h1>
+      <h1>About Me</h1>
       <img></img>
       <div>
           <p>
