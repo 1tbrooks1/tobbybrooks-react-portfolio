@@ -4,7 +4,7 @@ function Resume() {
   
   return (
     <div>
-    hello
+    <h1>RESUME</h1>
     </div>
   )
 }

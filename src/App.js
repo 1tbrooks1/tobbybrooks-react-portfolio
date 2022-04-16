@@ -9,7 +9,7 @@ import Footer from "./components/Footer"
 function App() {
   const [page, setPage] = useState('');
 
-  const currentPage = () => {
+  function currentPage() {
     switch (page) {
       case 'About':
         return <About />;
@@ -28,8 +28,9 @@ function App() {
     <div>
       <Nav page={page} setPage={setPage} />
       <main>
-      <Resume></Resume>
+        <div>{currentPage(page)}</div>
       </main>
+      <Footer />
     </div>
   );
 }
