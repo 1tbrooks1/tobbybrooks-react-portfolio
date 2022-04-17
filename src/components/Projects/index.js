@@ -61,8 +61,8 @@ function Projects() {
               <Card.Text>{project.description}</Card.Text>
             </Card.Body>
             <Card.Body>
-              <Card.Link href={project.git}>GitHub</Card.Link><br></br>
-                <Card.Link href={project.link}>Deployed App</Card.Link>
+              <Card.Link href={project.git}>GitHub Repository</Card.Link><br></br>
+                <Card.Link href={project.link}>Link to Application</Card.Link>
             </Card.Body>
           </Card>
         </div>
