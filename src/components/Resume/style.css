@@ -1,7 +1,12 @@
-ul{
-	list-style: none;
+a {
+    text-decoration: none;
 }
 
 h2 {
     margin-left: 3%
 }
+
+ul{
+	list-style: none;
+}
+
