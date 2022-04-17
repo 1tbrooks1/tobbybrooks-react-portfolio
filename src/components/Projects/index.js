@@ -5,46 +5,51 @@ import Button from "react-bootstrap/Button";
 function Projects() {
   // const [projects] = useState([
   //   {
-  //     title: "",
+  //     title: "Sole Intentions",
+  //    image: "",
   //     description: "",
-  //     link: "",
-  //     git: "",
+  //     link: "https://soleintentions.herokuapp.com/",
+  //     git: "https://github.com/1tbrooks1/sole_intentions",
   //   },
   //   {
-  //     title: "",
+  //     title: "Newsify",
+  //    image: "",
   //     description: "",
-  //     link: "",
-  //     git: "",
+  //     link: "https://yoowook1207.github.io/Newsify/",
+  //     git: "https://github.com/1tbrooks1/Newsify",
   //   },
   //   {
-  //     title: "",
+  //     title: "Budget Tracker",
+  //    image: "",
   //     description: "",
-  //     link: "",
-  //     git: "",
+  //     link: "https://financialmonitor.herokuapp.com/",
+  //     git: "https://github.com/1tbrooks1/tb-budget-tracker",
   //   },
   //   {
-  //     title: "",
+  //     title: "Note Taker",
+  //    image: "",
   //     description: "",
-  //     link: "",
-  //     git: "",
+  //     link: "https://tb-note-taker-app.herokuapp.com/",
+  //     git: "https://github.com/1tbrooks1/tb-note-taker",
   //   },
   //   {
-  //     title: "",
+  //     title: "Weather Dashboard",
+  //    image: "",
   //     description: "",
-  //     link: "",
-  //     git: "",
+  //     link: "https://1tbrooks1.github.io/weather-dashboard/",
+  //     git: "https://github.com/1tbrooks1/weather-dashboard",
   //   },
   //   {
-  //     title: "",
+  //     title: "Work Day",
+  //    image: "",
   //     description: "",
-  //     link: "",
-  //     git: "",
+  //     link: "https://1tbrooks1.github.io/work-day/",
+  //     git: "https://github.com/1tbrooks1/work-day",
   //   },
   // ])
 
   return (
     <Card style={{ width: "18rem" }}>
-      
       <Card.Img variant="top" src="holder.js/100px180" />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
