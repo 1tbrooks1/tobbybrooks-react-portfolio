@@ -5,10 +5,10 @@ import Nav from "react-bootstrap/Nav";
 
 function Navigation({ setPage }) {
   return (
-    <div>
+    <div >
       <>
         <Navbar bg="dark" variant="dark">
-          <Container>
+          <Container className="justify-content-center">
             <Navbar.Brand
               href="#about"
               onClick={() => {

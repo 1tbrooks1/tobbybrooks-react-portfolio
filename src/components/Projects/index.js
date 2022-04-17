@@ -51,7 +51,7 @@ function Projects() {
     <div className="d-flex justify-content-around flex-wrap">
       {portfolio.map((project) => (
         <div>
-          <Card className="m-1 card-content" style={{ width: '18rem' }}>
+          <Card className="m-5" style={{ width: '18rem' }}>
             <Card.Img
               variant="top"
               src={require(`../../assets/images/${project.name}.png`)}
