@@ -2,13 +2,14 @@ import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
+import "./style.css"
 
 function Navigation({ setPage }) {
   return (
-    <div >
+    <div className="d-flex justify-content-center">
       <>
         <Navbar bg="dark" variant="dark">
-          <Container className="justify-content-center">
+          <Container >
             <Navbar.Brand
               href="#about"
               onClick={() => {
@@ -17,7 +18,7 @@ function Navigation({ setPage }) {
             >
               Tobby Brooks
             </Navbar.Brand>
-            <Nav className="me-auto">
+            <Nav className="m-3">
               <Nav.Link
                 href="#about"
                 onClick={() => {

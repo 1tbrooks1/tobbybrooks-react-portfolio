@@ -1,0 +1,19 @@
+h1{
+    margin: 1%;
+    text-decoration: underline;
+}
+
+img.image {
+    margin-left: 24%;
+    margin-top: 2%;
+    width: 50%;
+    border-radius: 5%;
+}
+
+p{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 1%;
+    text-align: center;
+    font-weight: bold;
+}

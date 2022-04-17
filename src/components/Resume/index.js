@@ -8,7 +8,7 @@ function Resume() {
       <section id="skills">
         <div className="container px-5 py-10 mx-auto">
           <div className="">
-            <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4">
+            <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 resume">
               Resume and Skills
             </h1>
             <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
