@@ -1,23 +1,16 @@
 import React from 'react'
+import profPic from "../../assets/images/profPic.jpg"
 
 function About() {
   return (
-    <section>
-      <h1>About Me</h1>
-      <img></img>
-      <div>
-          <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Donec bibendum turpis sed ex condimentum molestie. Mauris 
-          condimentum lectus ut ornare dignissim. Mauris faucibus urna mi, 
-          ac feugiat metus aliquam maximus. Proin aliquam justo nec diam 
-          vulputate vestibulum. Aenean sollicitudin nulla at nisi ornare, 
-          nec suscipit massa eleifend. Morbi tristique justo vel turpis 
-          sollicitudin, et tristique velit convallis. In hac habitasse platea 
-          dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent 
-          id nisl nibh. Curabitur imperdiet ultricies mollis. In hac habitasse 
-          platea dictumst.
-          </p>
+    <section className="d-flex justify-content-center align-items-center flex-wrap">
+      <h1 className="pt-5">About Me</h1>
+      <div className="">
+      <img className="mx-auto d-block rounded pt-2" style={{ width: "25%" }} alt="profile" src={profPic}></img>
+      <p className="text-center pt-4">Hello, my name is Tobby Brooks and welcome to my portfolio.
+      Currently, I'm an aspiring Full Stack Software Developer attending a Full Stack Software
+      Developer bootcamp and George Washington University with a future completion date of early/mid May 2022.
+      After completion of my course, I will be looking for full time employment as a software developer.</p>
       </div>
     </section>
   )
