@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import About from "./components/About";
 import Contact from "./components/Contact";
-import Nav from "./components/Nav"
+import Navigation from "./components/Navigation"
 import Projects from "./components/Projects"
 import Resume from "./components/Resume"
 import Footer from "./components/Footer"
@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div>
-      <Nav page={page} setPage={setPage} />
+      <Navigation page={page} setPage={setPage} />
       <main>
         <div>{currentPage(page)}</div>
       </main>
