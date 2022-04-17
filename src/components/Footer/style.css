@@ -13,18 +13,16 @@ a.social:hover {
   transform: translateY(-2px);
 }
 
-a.youtube {
-  color: #eb3223;
+a.github {
+    color: black;
 }
 
-a.facebook {
+a.linked {
   color: #4968ad;
 }
 
-a.twitter {
-  color: #49a1eb;
+a.stack {
+  color: #e9a16d;
 }
 
-a.instagram {
-  color: black;
-}
+
