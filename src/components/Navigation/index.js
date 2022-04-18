@@ -25,7 +25,7 @@ function Navigation({ setPage }) {
                   setPage("About");
                 }}
               >
-                About
+                About Me
               </Nav.Link>
               <Nav.Link
                 href="#projects"
@@ -33,7 +33,7 @@ function Navigation({ setPage }) {
                   setPage("Projects");
                 }}
               >
-                Projects
+                Portfolio
               </Nav.Link>
               <Nav.Link
                 href="#resume"

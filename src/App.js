@@ -26,7 +26,9 @@ function App() {
 
   return (
     <div>
+      <header>
       <Navigation page={page} setPage={setPage} />
+      </header>
       <main>
         <div>{currentPage(page)}</div>
       </main>
