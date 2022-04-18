@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import Card from "react-bootstrap/Card";
+import "./projects.css"
 
 function Projects() {
    const [portfolio] = useState([
     {
        title: "Sole Intentions",
        name: "sole",
-       description: "test",
+       description: "Sole Intentions is an e-commerce site designed for sneaker reselling. ",
        link: "https://soleintentions.herokuapp.com/",
        git: "https://github.com/1tbrooks1/sole_intentions",
      },
@@ -50,19 +51,19 @@ function Projects() {
   return (
     <div className="d-flex justify-content-around flex-wrap">
       {portfolio.map((project) => (
-        <div>
-          <Card className="m-5" style={{ width: '18rem' }}>
+        <div >
+          <Card className="m-5" border="primary" style={{ width: '17rem' }}>
             <Card.Img
               variant="top"
               src={require(`../../assets/images/${project.name}.png`)}
             />
-            <Card.Body>
-              <Card.Title>{project.title}</Card.Title>
+            <Card.Body >
+              <Card.Title className="d-flex justify-content-center">{project.title}</Card.Title>
               <Card.Text>{project.description}</Card.Text>
             </Card.Body>
             <Card.Body>
-              <Card.Link href={project.git}>GitHub Repository</Card.Link><br></br>
-                <Card.Link href={project.link}>Link to Application</Card.Link>
+              <Card.Link href={project.git} target='_blank'>GitHub Repository</Card.Link><br></br>
+                <Card.Link href={project.link} target='_blank'>Link to Application</Card.Link>
             </Card.Body>
           </Card>
         </div>
