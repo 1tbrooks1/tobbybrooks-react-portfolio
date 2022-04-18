@@ -28,7 +28,7 @@ function Projects() {
      {
        title: "Note Taker",
        name: "note",
-       description: "The perfect app for keep track of notes.",
+       description: "The perfect app for keeping track of notes.",
        link: "https://tb-note-taker-app.herokuapp.com/",
        git: "https://github.com/1tbrooks1/tb-note-taker",
      },
