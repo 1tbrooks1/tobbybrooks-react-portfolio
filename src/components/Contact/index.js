@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { validateEmail } from '../utils/helper';
+import './section.css'
 
 function Contact() {
   const [errorMessage, setErrorMessage] = useState("");
@@ -45,7 +46,7 @@ function Contact() {
       <h1>Contact me</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
-          <label htmlFor="name">Name:</label>
+          <label className="name" htmlFor="name">Name:</label>
           <input
             type="text"
             defaultValue={name}
@@ -54,7 +55,7 @@ function Contact() {
           />
         </div>
         <div>
-          <label htmlFor="email">Email address:</label>
+          <label className="email" htmlFor="email">Email address:</label>
           <input
             type="email"
             defaultValue={email}
@@ -63,7 +64,7 @@ function Contact() {
           />
         </div>
         <div>
-          <label htmlFor="message">Message:</label>
+          <label className="message" htmlFor="message">Message:</label>
           <textarea
             name="message"
             defaultValue={message}
