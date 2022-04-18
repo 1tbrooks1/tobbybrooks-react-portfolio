@@ -15,7 +15,7 @@
 A single page application (SPA) using React to give a visual representation of my portfolio
 
 ## Deployment
-You can view a live deployment of the app at this link: 
+You can view a live deployment of the app at this link: https://1tbrooks1.github.io/tobbybrooks-react-portfolio/
 
 ## Screenshot
 ![Screenshot](portfolio.JPG)
