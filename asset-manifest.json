@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/tobbybrooks-react-portfolio/static/css/main.f7cd9328.css",
-    "main.js": "/tobbybrooks-react-portfolio/static/js/main.22770bb1.js",
+    "main.js": "/tobbybrooks-react-portfolio/static/js/main.d01392ef.js",
     "static/js/787.31fd7d38.chunk.js": "/tobbybrooks-react-portfolio/static/js/787.31fd7d38.chunk.js",
     "static/media/newsify.png": "/tobbybrooks-react-portfolio/static/media/newsify.5e72bc1781e79baecbf1.png",
     "static/media/profPic.png": "/tobbybrooks-react-portfolio/static/media/profPic.aae5be4f94476f7faf49.png",
     "static/media/weather.png": "/tobbybrooks-react-portfolio/static/media/weather.964079b9cc911164b65d.png",
     "static/media/work-day.png": "/tobbybrooks-react-portfolio/static/media/work-day.20fe7f1cc82953d0444e.png",
     "static/media/sole.png": "/tobbybrooks-react-portfolio/static/media/sole.1ffbc9a4b39529a8dee7.png",
+    "static/media/sole2.png": "/tobbybrooks-react-portfolio/static/media/sole2.44db5a65bcbcca0dbfa0.png",
     "static/media/budget.png": "/tobbybrooks-react-portfolio/static/media/budget.394f8e43d429feac4986.png",
     "static/media/Resume.pdf": "/tobbybrooks-react-portfolio/static/media/Resume.c4107d69e7508db2025c.pdf",
     "static/media/note.png": "/tobbybrooks-react-portfolio/static/media/note.1e36e79971b4b04f1e5b.png",
     "index.html": "/tobbybrooks-react-portfolio/index.html",
     "main.f7cd9328.css.map": "/tobbybrooks-react-portfolio/static/css/main.f7cd9328.css.map",
-    "main.22770bb1.js.map": "/tobbybrooks-react-portfolio/static/js/main.22770bb1.js.map",
+    "main.d01392ef.js.map": "/tobbybrooks-react-portfolio/static/js/main.d01392ef.js.map",
     "787.31fd7d38.chunk.js.map": "/tobbybrooks-react-portfolio/static/js/787.31fd7d38.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f7cd9328.css",
-    "static/js/main.22770bb1.js"
+    "static/js/main.d01392ef.js"
   ]
 }
