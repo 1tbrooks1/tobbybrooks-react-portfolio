@@ -12,6 +12,13 @@ function Projects() {
        git: "https://github.com/1tbrooks1/sole_intentions",
      },
      {
+      title: "Sole Intentions V2",
+      name: "sole2",
+      description: "A refactor to the original Sole Intentions site using the MERN Stack.",
+      link: "https://sole-intentions.herokuapp.com/",
+      git: "https://github.com/1tbrooks1/sole-REACTions",
+    },
+     {
        title: "Newsify",
        name: "newsify",
        description: "Your go to site for the latest news of YOUR choice.",
@@ -19,19 +26,12 @@ function Projects() {
        git: "https://github.com/1tbrooks1/Newsify",
      },
      {
-       title: "Budget Tracker",
-       name: "budget",
-       description: "A simple and handy financial monitor to keep track of expenses.",
-       link: "https://financialmonitor.herokuapp.com/",
-       git: "https://github.com/1tbrooks1/tb-budget-tracker",
-     },
-     {
-       title: "Note Taker",
-       name: "note",
-       description: "The perfect app for keeping track of notes.",
-       link: "https://tb-note-taker-app.herokuapp.com/",
-       git: "https://github.com/1tbrooks1/tb-note-taker",
-     },
+      title: "Work Day",
+      name: "work-day",
+      description: "An amazing scheduler for your regular work day.",
+      link: "https://1tbrooks1.github.io/work-day/",
+      git: "https://github.com/1tbrooks1/work-day",
+    },
      {
        title: "Weather Dashboard",
        name: "weather",
@@ -39,15 +39,7 @@ function Projects() {
        link: "https://1tbrooks1.github.io/weather-dashboard/",
        git: "https://github.com/1tbrooks1/weather-dashboard",
      },
-     {
-       title: "Work Day",
-       name: "work-day",
-       description: "An amazing scheduler for your regular work day.",
-       link: "https://1tbrooks1.github.io/work-day/",
-       git: "https://github.com/1tbrooks1/work-day",
-     },
    ])
-
   return (
     <div className="d-flex justify-content-around flex-wrap">
       {portfolio.map((project) => (
